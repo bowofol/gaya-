@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaya's Restaurant - Good Food For Good Health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Gaya's Restaurant home">Gaya's Restaurant</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#menus">Menus</a>
+        <a href="#chefs">Our Chefs</a>
+        <a href="#reserve">Book A Table</a>
+      </nav>
+      <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="pill-button outline" href="#reserve">Book Now</a>
+    </header>
+
+    <main>
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="script-label">Healthy Eating</p>
+          <h1 id="hero-title"><span>Good Food</span> For Good Health</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of
+            using lorem ipsum is that it has a more-or-less normal distribution.
+          </p>
+          <div class="actions">
+            <a class="pill-button" href="#menus">Order Now</a>
+            <a class="pill-button ghost" href="#about">Read More</a>
+          </div>
+          <div class="hero-mini-cards">
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 15h15l-2.2-5.2A3 3 0 0 0 14 8H9.2a3 3 0 0 0-2.6 1.5L4 15Zm1 0v2.5A1.5 1.5 0 0 0 6.5 19h11a1.5 1.5 0 0 0 1.5-1.5V15M8 19v1m8-1v1" />
+              </svg>
+              <div>
+                <strong>Fast Delivery</strong>
+                <span>Delivery within 30 minutes</span>
+              </div>
+            </article>
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m4 4 16 16M14 4v3.5a4 4 0 0 1-4 4H6.5M19 5l-5 5m4-4 1.5 1.5M8 13l-4 7" />
+              </svg>
+              <div>
+                <strong>Dine In</strong>
+                <span>Every taste and meal in your hand</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="green-panel"></div>
+          <img
+            class="hero-bowl"
+            src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=840&q=85"
+            alt=""
+          />
+          <img
+            class="tomato tomato-one"
+            src="https://images.unsplash.com/photo-1582284540020-8acbe03f4924?auto=format&fit=crop&w=220&q=80"
+            alt=""
+          />
+          <img
+            class="tomato tomato-two"
+            src="https://images.unsplash.com/photo-1582284540020-8acbe03f4924?auto=format&fit=crop&w=180&q=80"
+            alt=""
+          />
+          <span class="pepper-shape"></span>
+        </div>
+      </section>
+
+      <section class="story section-shell" id="about" aria-labelledby="story-title">
+        <div class="photo-collage" aria-label="Featured dishes">
+          <img class="photo-large" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=580&q=82" alt="Baked vegetable dish" />
+          <img class="photo-small top" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=420&q=82" alt="Fresh pizza" />
+          <img class="photo-small bottom-left" src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=420&q=82" alt="Plated dinner" />
+          <img class="photo-small bottom-right" src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=420&q=82" alt="Burger and fries" />
+        </div>
+        <div class="story-copy">
+          <p class="script-label">Welcome to dish</p>
+          <h2 id="story-title">We Are <span>Gaya's Restaurant</span></h2>
+          <h3>The Delicious Story</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page. We prepare simple food with bright
+            ingredients, clean handling, and the comfort of a friendly table.
+          </p>
+          <p>
+            We cook each menu around freshness first, then layer in warm flavors,
+            quick service, and easy ordering for every guest.
+          </p>
+          <div class="actions">
+            <a class="pill-button" href="#menus">Learn More</a>
+            <a class="pill-button ghost" href="#reserve">Book Table</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-band" id="services" aria-labelledby="services-title">
+        <h2 class="sr-only" id="services-title">Our Services</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 6h18v12H3zM6 9h4m-4 3h6m5-3h1m-3 3h3M7 18l-1 3m11-3 1 3" />
+            </svg>
+            <h3>Your Order</h3>
+            <p>Place an order with a few taps and receive quality dishes.</p>
+          </article>
+          <article class="service-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 17h11l3-5h-4l-2-5H8L5 17Zm0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm11 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM6 8H3" />
+            </svg>
+            <h3>We Deliver</h3>
+            <p>There are many variations of passages of lorem ipsum.</p>
+          </article>
+          <article class="service-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 4v5m10-5v5M4 9h16v10H4zM8 13h3m2 0h3M8 16h2m4 0h2" />
+            </svg>
+            <h3>Enjoy Fresh Food</h3>
+            <p>Always fresh ingredients and dependable kitchen care.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="menus section-shell" id="menus" aria-labelledby="menus-title">
+        <div class="section-heading">
+          <p class="script-label">Fresh and healthy dishes</p>
+          <h2 id="menus-title">Our Mouth Watering <span>Menus</span></h2>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=360&q=80" alt="Muffins" />
+            <div>
+              <h3>Muffins</h3>
+              <p>Soft baked muffins with a gentle golden crumb and fruit notes.</p>
+              <span>$9.99</span>
+            </div>
+          </article>
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=360&q=80" alt="Pancakes" />
+            <div>
+              <h3>Pancakes</h3>
+              <p>A stack of breakfast favorites served with syrup and berries.</p>
+              <span>$8.99</span>
+            </div>
+          </article>
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=360&q=80" alt="Waffles" />
+            <div>
+              <h3>Waffles</h3>
+              <p>Classic waffles made crisp outside and tender inside.</p>
+              <span>$7.99</span>
+            </div>
+          </article>
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=360&q=80" alt="Bagels" />
+            <div>
+              <h3>Bagels</h3>
+              <p>Toasted bagels with rich fillings and fresh herbs.</p>
+              <span>$6.99</span>
+            </div>
+          </article>
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?auto=format&fit=crop&w=360&q=80" alt="Oatmeal" />
+            <div>
+              <h3>Oatmeal</h3>
+              <p>Warm oats with seeds, fruit, and balanced sweetness.</p>
+              <span>$5.99</span>
+            </div>
+          </article>
+          <article class="menu-item">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=360&q=80" alt="Omelette" />
+            <div>
+              <h3>Omelette</h3>
+              <p>Fluffy eggs folded with vegetables and a creamy finish.</p>
+              <span>$10.99</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials" aria-labelledby="testimonials-title">
+        <div class="section-heading">
+          <p class="script-label">Happy customers</p>
+          <h2 id="testimonials-title">What Our <span>Customers</span> Say</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article>
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80" alt="Customer portrait" />
+            <p>Everything arrived fresh and beautifully packed. The salad was crisp, colorful, and full of flavor.</p>
+            <strong>Adam Miller</strong>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80" alt="Customer portrait" />
+            <p>The food feels homemade but polished. Booking a table was fast and the team was lovely.</p>
+            <strong>Linda Harris</strong>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=160&q=80" alt="Customer portrait" />
+            <p>Great menu variety and quick delivery. It has become my go-to lunch spot during the week.</p>
+            <strong>James Carter</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="chefs section-shell" id="chefs" aria-labelledby="chefs-title">
+        <div class="section-heading">
+          <p class="script-label">Lovely kitchen crew</p>
+          <h2 id="chefs-title">Meet Our Wonderful <span>Chefs</span></h2>
+        </div>
+        <div class="chef-grid">
+          <article>
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=420&q=82" alt="Chef preparing food" />
+            <h3>Mariana Reed</h3>
+            <p>Head Chef</p>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=420&q=82" alt="Chef plating food" />
+            <h3>Daniel Kim</h3>
+            <p>Pastry Chef</p>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=420&q=82" alt="Chef in kitchen" />
+            <h3>Sofia Lane</h3>
+            <p>Sous Chef</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="reserve">
+      <div class="footer-top">
+        <p>Fully Prepared &amp; Delivered Fresh To Daily</p>
+        <a class="pill-button light" href="#top">Reservation</a>
+      </div>
+      <div class="footer-main">
+        <div>
+          <a class="brand footer-brand" href="#top">Gaya's Restaurant</a>
+          <p>Fresh dishes, friendly service, and memorable meals for every table.</p>
+          <div class="socials" aria-label="Social links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter">t</a>
+            <a href="#" aria-label="Instagram">i</a>
+          </div>
+        </div>
+        <address>
+          <strong>Get in touch</strong>
+          <span>Gaya's Restaurant, Nigeria</span>
+          <span>gaya'srestaurant@gmail.com</span>
+        </address>
+        <form class="subscribe-form">
+          <label for="email">Subscribe our newsletter</label>
+          <div>
+            <input id="email" name="email" type="email" placeholder="Email address" />
+            <button class="pill-button light" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
